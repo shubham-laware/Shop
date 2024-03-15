@@ -3,7 +3,7 @@ import React from "react";
 function ReturnPolicy() {
   return (
       <div className=" py-2 ">
-        <div className=" text-center py-1">
+        <div className=" text-center py-3">
           <h3>Return Policy</h3>
           <h4 style={{textDecoration:"underline"}}>General Return Policy</h4>
         </div>

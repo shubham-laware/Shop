@@ -3,14 +3,14 @@ import React from "react";
 
 function Media() {
   return (
-    <div className="vh-100 d-flex flex-column justify-content-between">
+    <div className="  d-flex flex-column justify-content-between">
     
-      <main className="vh-100 overflow-auto ml-3"  style={{ padding: "0 280px", width:'95%' }}>
-        <div className="h-100 position-relative d-flex flex-column justify-content-between">
+      <main className="  ml-3"  style={{ padding: "0 280px", }}>
+        <div className=" position-relative d-flex flex-column justify-content-between">
           <div className="py-3">
             <h3>World's First AI Software Engineer is Launched</h3>
           </div>
-          <div className=" border border-danger " style={{height:"400px"}}>
+          <div style={{height:"370px"}}>
             <iframe
               src="https://www.youtube.com/embed/jUS6XxoSq3E?si=TZAbO9TAx5CQLr1n"
               title="YouTube video player"
@@ -33,7 +33,7 @@ function Media() {
             </p>
           </div>
           <div className="d-flex justify-content-end mt-4" >
-            <button class='bg-blue' style={{ width: '100px',height:'30px', borderRadius: '18px' }} type="button" className="btn btn-info">Connect</button>
+            <button className="bg-body-secondary  border px-2 py-1 rounded">Connect</button>
           </div>
         </div>
       </main>

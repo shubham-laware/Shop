@@ -38,7 +38,7 @@ function Recommendations() {
                         <span className="font-weight-bold">{product.name}</span>
                         <span>{product.price}</span>
                         <span className="text-sm">{product.description}</span>
-                        <button className='border rounded'>Add To Cart</button>
+                        <button className='border bg-body-secondary  rounded'>Add To Cart</button>
                       </div>
                     </div>
                   </div>
