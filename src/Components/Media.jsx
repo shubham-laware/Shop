@@ -3,14 +3,14 @@ import React from "react";
 
 function Media() {
   return (
-    <div className="  d-flex flex-column justify-content-between">
+    <div className="d-flex flex-column justify-content-between">
     
-      <main className="  ml-3"  style={{ padding: "0 280px", }}>
-        <div className=" position-relative d-flex flex-column justify-content-between">
+      <main className=" d-flex justify-content-center w-100"  >
+        <div className="  d-flex flex-column justify-content-between px-2" style={{width:"700px"}}>
           <div className="py-3">
             <h3>World's First AI Software Engineer is Launched</h3>
           </div>
-          <div style={{height:"370px"}}>
+          <div  className="object-fit" style={{height:"370px"}}>
             <iframe
               src="https://www.youtube.com/embed/jUS6XxoSq3E?si=TZAbO9TAx5CQLr1n"
               title="YouTube video player"

@@ -17,7 +17,7 @@ const Cart = () => {
             newCart.push({ id: id, count: 1, title: title, image: image, price: price });
         }
 
-        setCart([...newCart]);
+        setCart([...newCart]);  
         console.log("+")
     };
 
