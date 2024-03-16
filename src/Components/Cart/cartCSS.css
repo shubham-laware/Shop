@@ -37,7 +37,7 @@ cursor: pointer;
   background-color: red;
 }
 
-button{
+.checkoutBtn{
   background: rgb(202, 242, 124) !important;
 }
 

@@ -3,23 +3,44 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div>
-            <nav id="na" style={{backgroundColor:'#563d7c' }} className="navbar navbar-expand-lg navbar-light  ">
-                
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+<nav className="navbar navbar-expand-lg bg-body-secondary " >
+            <div className="container-fluid">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse " id="navbarNavAltMarkup " >
-                    <div className="navbar-nav  w-100 d-flex justify-content-center gap-5 " >
-                        <Link to='/'  style={{ color: 'white' }} className="nav-item nav-link ml-4">ProfileSetting</Link>
-                        <Link to='/media'  style={{ color: 'white' }} className="nav-item nav-link ml-4">Media</Link>
-                        <Link to='/product'  style={{ color: 'white' }} className="nav-item nav-link ml-4">Product</Link>
-                        <Link to='/cart'  style={{ color: 'white' }} className="nav-item nav-link ml-4">Cart</Link>
-                        <Link to='/returnpolicy'  style={{ color: 'white' }} className="nav-item nav-link ml-4">Return Policy</Link>
-                    </div>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                        <li className="nav-item active text-white">
+                            <Link className="nav-link" to="/">
+                                Profile setting
+                            </Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/media">
+                                Media
+                            </Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/product">
+                                Product
+                            </Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/cart">
+                                Cart
+                            </Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/returnpolicy">
+                                Return Policy
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+       
     );
 }
 

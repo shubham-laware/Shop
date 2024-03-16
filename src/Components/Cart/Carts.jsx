@@ -152,7 +152,7 @@ const Cart = () => {
 
                             </div>
 
-                            <button className='btn btn-sm mx-3 my-2 p-2 text-black rounded-5 px-3'>Go to checkout</button>
+                            <button className='btn btn-sm mx-3 my-2 p-2 text-black rounded-5 px-3 checkoutBtn '>Go to checkout</button>
 
                         </div>
 
