@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.profile-image{
+  width: 8rem !important;
+}
+ 
+.progress-bar {
+  background-color: rgb(253, 216, 222) !important;
+ 
+}
+ 
+.progress{
+  height: 5px !important;
+}
+ 
+.track-button{
+  background: rgb(202, 242, 124) !important;
+}
+ 
+.btn-paid{
+  background-color: rgb(253, 216, 222) !important;
+}
